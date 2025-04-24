@@ -1,0 +1,255 @@
+body{
+  background: #e6e8e6 !important;
+}
+
+.View  .h-full  .MuiOutlinedInput-root {
+  height: 40px; 
+} 
+
+
+.View .custom-button {
+  height: 40px; 
+  padding: 0 14px; 
+  font-size: 14px; 
+  line-height: 32px; 
+  border-radius: 4px; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color:#115e00; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.View .custom-button:hover {
+  background-color:#0c3e00; /* Darker shade for hover */
+  
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.previous a:hover,
+.next a:hover {
+  background-color: #ddd;
+}
+
+.loading, .loadingMore, .noMoreProducts, .error {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.load-more-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: #115e00;
+  border: #115e00;
+  border-radius: 10px;
+  color: #fff;
+}
+.load-more-button:hover {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #1d9d00;
+ color: #fff;
+}
+
+
+.CreateOrderTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.unavailable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.text-center {
+  font-size: 40px;
+  color:#115e00;
+  
+}
+
+.View .container {
+  display: flex;
+  padding: auto;
+}
+
+.View .content-container {
+  flex: 1;
+  margin-right: 1px; 
+}
+
+.View .products-container {
+  flex: 1;
+}
+
+.View .categories-container {
+  font-family: 'Arial', sans-serif;
+  margin-top: 15px;
+  width: 180px;
+  padding: 9px;
+  position: relative;
+  right: 4px;
+}
+.View .no-products {
+  padding: 30px;
+  margin: 20px;
+  font-size: 25px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900; /* Maximum boldness */
+  color: rgba(21, 105, 0, 0.8); /* Dark green with 80% opacity */
+}
+.View .categories-container::before {
+  content: '';
+  position: absolute;
+  right: -10px;  
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #c6c6c6; 
+}
+
+.View .category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #0413009c;
+
+}
+
+.View .category-item {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #faf7f7;
+  transition: background-color 0.9s ease; 
+
+}
+
+.View .category-item:hover {
+  background-color: #f1f1f1;
+
+}
+
+.View .subcategories {
+  display: none;
+  padding-left: 15px;
+  transition: display 0.5s ease; 
+
+}
+
+.View .category-item:hover .subcategories {
+  display: block;
+
+}
+
+.View .subcategory-item {
+  padding: 4px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.View .subcategory-item:hover {
+  color: #000000;
+}
+
+.View .sorting {
+  margin-top: 16px;
+}
+
+.View .sorting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.View .sorting-item {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.View .sorting-item:hover,
+.View .sorting-item.active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.View .category-name {
+  margin-right: 8px; 
+  transition: color 0.3s ease; 
+}
+
+.View .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0c3e00;
+  height: 100vh;
+}
+
+.View .error {
+  color: red;
+  text-align: center;
+}
+
+.View .category-item:hover .category-name {
+  color: #000000; 
+}
+
+.View .category-item:hover {
+  background-color: #e0e0e0;
+}
+
+.View .category-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.9s ease; 
+  
+}
+.load-more-arrow {
+  color: #115e00;
+
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.7; 
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  filter: brightness(0.5); 
+}
+
+.load-more-arrow:hover {
+
+  opacity: 1; 
+  transform: scale(1.2); 
+  filter: brightness(0.7); 
+}

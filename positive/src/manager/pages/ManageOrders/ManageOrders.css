@@ -1,0 +1,164 @@
+/* ManageOrders.css */
+.manage-orders-body{
+  margin-top: 3%;
+  direction: rtl;
+}
+
+.manage-orders {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.noOrdersHasFound{
+  text-align: center;
+}
+
+.select-new-product {
+  border: 1px solid gray; /* Border width and color */
+  border-radius: 5px; /* Optional: To add rounded corners */
+  width: fit-content !important;
+}
+
+.manage-orders h2{
+  color: #115e00;
+  font-size: 30px;
+}
+
+.orders-list h3{
+  text-align: right;
+}
+
+.align-right {
+  direction: rtl;
+  display: block;
+}
+.align-right-product{
+  direction: rtl;
+}
+
+.search-form {
+  /* margin-bottom: 30px; */
+  padding: 15px 20px; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.search-form input[type="text"] {
+  text-align: right;
+  flex: 1; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  font-size: 16px; 
+  margin-right: 10px; 
+}
+
+.search-form button {
+  font-size: 20px;
+  justify-content: space-between; /* Distributes space between buttons */
+  gap: 10px; /* Space between buttons */
+}
+
+.search-form button:hover {
+  background-color: #c7efc9; /* Darker green on hover */
+}
+
+.orders-list {
+  margin-top: 20px;
+}
+
+.order {
+  border: 1px solid #ddd; 
+  border-radius: 6px; 
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order p {
+  margin-bottom: 4px;
+  font-size: 14px; 
+  color: #000000;
+}
+
+.order ul {
+  margin-top: 8px; 
+  margin-bottom: 8px;
+  padding-left: 20px; 
+  direction: rtl;
+}
+
+.order li {
+  margin-bottom: 4px;
+  font-size: 14px; 
+  color: #666;
+}
+
+.order .form-group {
+  margin-bottom: 8px;
+}
+
+.order button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.custom-button {
+  background-color: #115e00;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #1a8802 !important;
+  color: white;
+}
+
+
+.custom-button-delete {
+  background-color: #b10000;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+}
+.coral123{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.coral321{
+  direction: rtl;
+}
+
+.custom-button-delete:hover {
+  background-color: #ee0303 !important;
+  color: white;
+}
+
+.custom-button-search {
+  background-color: #115e00;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 2%;
+}
+
+.custom-button-search:hover {
+  background-color: #1a8802 !important;
+ color: white;
+}

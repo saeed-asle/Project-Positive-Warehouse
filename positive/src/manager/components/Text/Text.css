@@ -1,0 +1,35 @@
+/* Text.css */
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  /* Example of additional styles you can add */
+  /* .text-large {
+    font-size: 24px;
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  } */
+
+  .text-bold {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #115e00 ;
+    display: inline;
+  }
+  
+  .text-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+    text-align: center;
+    color: #115e00;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }

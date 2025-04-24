@@ -1,0 +1,154 @@
+.contact-page{
+    margin-top:90px ;
+
+}
+.member-name{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.phone-number{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 5%;
+}
+.page-title{
+    font-family: Arial, sans-serif;
+    color: #115e00;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 70px;
+    margin-top: 2%;
+}
+
+h2{
+    direction: rtl;
+    font-size: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+h4{
+
+    direction: rtl;
+    font-size: 35;
+    font-family: Arial, sans-serif;
+}
+
+.contact-page {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background-color: #E6E8E6;
+}
+
+.team-container {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.phone-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+.contact-form-container {
+    display: flex;
+    margin-top: 0.5%;
+    background-color: #E6E8E6;
+    border-radius: 5px;
+    width: 100%;
+    max-width:900px;
+    overflow: hidden;
+}
+
+.details-bar-wrapper {
+    background: linear-gradient(-90.21deg, rgba(0, 77, 13, 0.902) -5.91%, rgba(125, 125, 125, 0.173) 130.58%);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.text-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-one {
+    font-size: 35px;
+    color: black;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.text-two {
+    font-size: 20px;
+    line-height: 1.5;
+    color: black;
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+}
+
+.contact-email {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.contact-section {
+    flex: 2;
+    padding: 10px;
+}
+
+.phone-icon {
+    color: #2E8B57; 
+    margin-left: 10px;
+    direction: rtl;
+    font-size: 30px;
+    
+}
+
+.contact-form-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(126, 126, 126, 0.343);
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    z-index: 1; /* Ensure content appears above the background */
+}
+
+/* Pseudo-element for the background image */
+.contact-form-container::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 500px; /* Adjust the width to make the image smaller */
+    height: 200px; /* Adjust the height to make the image smaller */
+    background-image: url('../../assets/svg/logo.svg');
+    background-size: contain; /* Ensure the whole image is visible */
+    background-repeat: no-repeat;
+    background-position: 20px;
+    opacity: 0.3; /* Adjust the transparency level here */
+    z-index: -1; /* Place the image behind the content */
+    filter: brightness(0.5); /* Adjust brightness to control the image strength */
+    transform: translate(-25%, 37%) rotate(0deg); /* Center and rotate the image */
+
+}
